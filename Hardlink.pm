@@ -5,7 +5,7 @@ use vars qw($VERSION @ISA);
 use DynaLoader;
 
 @ISA = qw(DynaLoader);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 __PACKAGE__->bootstrap($VERSION);
 
@@ -23,8 +23,8 @@ Win32::Hardlink - Hardlink support on Windows
 
 =head1 VERSION
 
-This document describes version 0.01 of Win32::Hardlink, released
-September 19, 2004.
+This document describes version 0.02 of Win32::Hardlink, released
+September 25, 2004.
 
 =head1 SYNOPSIS
 
@@ -34,7 +34,7 @@ September 19, 2004.
 =head1 DESCRIPTION
 
 This module implements the built-in C<link> function for Microsoft Windows.
-Currently, it only works for NTFS filesystems.
+Currently, it only works on NTFS filesystems.
 
 =head1 SEE ALSO
 

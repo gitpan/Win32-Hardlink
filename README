@@ -1,4 +1,4 @@
-This is the README file for Win32::Symlink, a module implementing
+This is the README file for Win32::Hardlink, a module implementing
 hard links on windows.
 
 * Installation

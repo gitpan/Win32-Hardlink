@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.41.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,20 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 0ac8279ef7b437733386eaa4b2c1ceb5e1ba9ed0 Changes
-SHA1 bc14e8f70abce431ac9357ebcd347d1e7cfb7905 Hardlink.pm
+SHA1 1ba2a6d13ace1532dd92032afe2797ee4e344dc2 Changes
+SHA1 a551b713d40b692186087f567f54d9c446ed4afc Hardlink.pm
 SHA1 62f0ea0a1790dd992a22be4000e3748a3a715fbc Hardlink.xs
-SHA1 03400412417e9b6d66a6539c294b5f64c8ba65fe MANIFEST
-SHA1 dab5b2e5cd97d9d3c27bd95b9e2f1fe67d434166 MANIFEST.SKIP
-SHA1 6e67e67816a61d7f9220847666a928ad02022de5 META.yml
+SHA1 b7c3d5d3d9cb3482d664883826b2221aec914ec9 MANIFEST
+SHA1 4dc83699966b27789bbe26b4a66121f85c877657 MANIFEST.SKIP
+SHA1 c0f0332e94eefaed90d83fae80798a251e597256 META.yml
 SHA1 cdc263306768819dfebeaeb441beb29b4f368ad1 Makefile.PL
-SHA1 ced9a42e56df553deb4d2583d18df1456a25112e README
+SHA1 2eb7ca77a1871b52858d30429b052816fcc1fdb4 README
 SHA1 23fdad2b16d54c863b43d40155adf7732055d23e lnw.cpp
 SHA1 1e8bdf5264c4eba76504d3bbbb8be69e7df45ff5 t/1-basic.t
+SHA1 7fefab9e3cbe37a7a900a3082ac4d454999bdb5b typemap
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.3 (FreeBSD)
 
-iD8DBQFBTKsxtLPdNzw1AaARAh7ZAJ9udBK1O9gxIwnvNbAFGmXotB2ptwCdGISk
-NDnPvS4yz/4ugxX17oJyjjk=
-=CP1C
+iD8DBQFBVLA1tLPdNzw1AaARAuz0AKCSeslsFWPklofAAYhpH12mPbJdZACfagyi
+ab++EBpVj/gfixZURoNbV1w=
+=ZXdz
 -----END PGP SIGNATURE-----
