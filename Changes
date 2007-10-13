@@ -1,9 +1,17 @@
+[Changes for 0.10 - 2007-10-14]
+
+* Corrected 0.04's distribution name: "Win32-HardLink" should have
+  been "Win32-Hardlink" instead.
+
+* Use XSLoader instead of DynaLoader whenever possible, to reduce
+  memory footprint.
+
 [Changes for 0.04 - 2007-10-14]
 
 * LICENSING CHANGE: This compilation and all individual files in it
-  (except for the bundled libsyck code) are now under the permissive
-  "MIT" license.
-* Tidy up source code, test files, and this changelog.
+  are now under the permissive "MIT" license.
+
+* Tidied up source code, test files, and this changelog.
 
 [Changes for 0.03 - 2007-10-14]
 

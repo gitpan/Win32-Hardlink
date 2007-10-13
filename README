@@ -1,9 +1,9 @@
 NAME
-    Win32::Hardlink - Hardlink support on Windows
+    Win32::Hardlink - Standalone, extensible Perl module installer
 
 VERSION
-    This document describes version 0.03 of Win32::Hardlink, released
-    October 17, 2007.
+    This document describes version 0.10 of Win32::Hardlink, released
+    October 14, 2007.
 
 SYNOPSIS
         use Win32::Hardlink;

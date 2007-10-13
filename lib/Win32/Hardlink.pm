@@ -3,15 +3,24 @@ package Win32::Hardlink;
 use 5.005;
 use strict;
 use vars qw($VERSION @ISA);
-use DynaLoader;
+$VERSION = '0.10';
 
-@ISA     = qw(DynaLoader);
-$VERSION = '0.04';
-
-__PACKAGE__->bootstrap($VERSION);
+BEGIN {
+    local $@;
+    eval {
+        require XSLoader;
+        XSLoader::load(__PACKAGE__, $VERSION);
+        1;
+    } or do {
+        require DynaLoader;
+        push @ISA, 'DynaLoader';
+        __PACKAGE__->bootstrap($VERSION);
+    };
+}
 
 sub import {
     *CORE::GLOBAL::link = __PACKAGE__->can('link');
+    return *CORE::GLOBAL::link; # Avoid "once" warning
 }
 
 1;
@@ -24,8 +33,8 @@ Win32::Hardlink - Hardlink support on Windows
 
 =head1 VERSION
 
-This document describes version 0.04 of Win32::Hardlink, released
-October 17, 2007.
+This document describes version 0.10 of Win32::Hardlink, released
+October 14, 2007.
 
 =head1 SYNOPSIS
 
