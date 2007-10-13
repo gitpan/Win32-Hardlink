@@ -5,8 +5,8 @@ use strict;
 use vars qw($VERSION @ISA);
 use DynaLoader;
 
-@ISA = qw(DynaLoader);
-$VERSION = '0.03';
+@ISA     = qw(DynaLoader);
+$VERSION = '0.04';
 
 __PACKAGE__->bootstrap($VERSION);
 
@@ -24,7 +24,7 @@ Win32::Hardlink - Hardlink support on Windows
 
 =head1 VERSION
 
-This document describes version 0.03 of Win32::Hardlink, released
+This document describes version 0.04 of Win32::Hardlink, released
 October 17, 2007.
 
 =head1 SYNOPSIS

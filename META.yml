@@ -15,7 +15,7 @@ no_index:
 provides: 
   Win32::Hardlink: 
     file: lib/Win32/Hardlink.pm
-    version: 0.03
+    version: 0.04
 requires: 
   perl: 5.005
-version: 0.03
+version: 0.04

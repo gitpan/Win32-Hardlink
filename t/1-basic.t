@@ -12,8 +12,8 @@ print FH "TEST";
 close FH;
 
 SKIP: {
-    my $has_link = eval { Win32::Hardlink::link( $foo => "$foo.new" ) };
-    skip "No symlink available -- Not on NTFS?" unless $has_link; 
+    my $has_link = eval { Win32::Hardlink::link($foo => "$foo.new") };
+    skip "No symlink available -- Not on NTFS?" unless $has_link;
 
     ok(-f "$foo.new", "hardlink works");
 

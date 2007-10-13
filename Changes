@@ -1,4 +1,11 @@
-[Changes for 0.03 - 2004-10-14]
+[Changes for 0.04 - 2007-10-14]
+
+* LICENSING CHANGE: This compilation and all individual files in it
+  (except for the bundled libsyck code) are now under the permissive
+  "MIT" license.
+* Tidy up source code, test files, and this changelog.
+
+[Changes for 0.03 - 2007-10-14]
 
 * Modernize the build infrastruture to Module::Install.
 * Also corrected t/1-basic.t to use Test::More.
