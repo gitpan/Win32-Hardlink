@@ -1,10 +1,21 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Win32-Hardlink
-version:      0.02
-version_from: Hardlink.pm
-installdirs:  site
-requires:
-
+--- 
+abstract: ~
+author: Audrey Tang <cpan@audreyt.org>
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.21
+generated_by: Module::Install version 0.67
+license: mit
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Win32-HardLink
+no_index: 
+  directory: 
+    - inc
+    - t
+provides: 
+  Win32::Hardlink: 
+    file: lib/Win32/Hardlink.pm
+    version: 0.03
+requires: 
+  perl: 5.005
+version: 0.03

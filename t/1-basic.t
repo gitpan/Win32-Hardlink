@@ -1,7 +1,5 @@
 use strict;
-use Test;
-BEGIN { plan tests => 3 };
-
+use Test::More tests => 3;
 use FindBin;
 use File::Spec;
 use Win32::Hardlink;
@@ -13,19 +11,16 @@ open FH, "> $foo" or die $!;
 print FH "TEST";
 close FH;
 
-my $has_link = eval { Win32::Hardlink::link( $foo => "$foo.new" ) };
+SKIP: {
+    my $has_link = eval { Win32::Hardlink::link( $foo => "$foo.new" ) };
+    skip "No symlink available -- Not on NTFS?" unless $has_link; 
 
-if (!$has_link) {
-    skip(1);
-    skip(1);
-    exit;
+    ok(-f "$foo.new", "hardlink works");
+
+    open FH, "< $foo.new" or die $!;
+    is(scalar <FH>, "TEST", "hardlink preserves content");
+    close FH;
 }
-
-ok(-f "$foo.new");
-
-open FH, "< $foo.new" or die $!;
-ok(scalar <FH>, "TEST");
-close FH;
 
 END {
     unlink "$foo.new";

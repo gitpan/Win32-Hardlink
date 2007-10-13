@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.41.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,21 +14,33 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1ba2a6d13ace1532dd92032afe2797ee4e344dc2 Changes
-SHA1 a551b713d40b692186087f567f54d9c446ed4afc Hardlink.pm
+SHA1 43f4467b2b663d3ccf744bf457e2418fc89116b3 Changes
 SHA1 62f0ea0a1790dd992a22be4000e3748a3a715fbc Hardlink.xs
-SHA1 b7c3d5d3d9cb3482d664883826b2221aec914ec9 MANIFEST
+SHA1 dd3c3106e1f5407df8adcf0525721da50a5834b4 MANIFEST
 SHA1 4dc83699966b27789bbe26b4a66121f85c877657 MANIFEST.SKIP
-SHA1 c0f0332e94eefaed90d83fae80798a251e597256 META.yml
-SHA1 cdc263306768819dfebeaeb441beb29b4f368ad1 Makefile.PL
-SHA1 2eb7ca77a1871b52858d30429b052816fcc1fdb4 README
-SHA1 23fdad2b16d54c863b43d40155adf7732055d23e lnw.cpp
-SHA1 1e8bdf5264c4eba76504d3bbbb8be69e7df45ff5 t/1-basic.t
+SHA1 fff9ad88504e4ae9379db99f6e7e765b5b4a4404 META.yml
+SHA1 f63bccf301b9afd39e05aaa8361d6fe5e358c97a Makefile.PL
+SHA1 575534f4c762238d62d6a7a014a622c141446fe7 README
+SHA1 78edb89a439463e44c33a72bbee84c54d0dc8aaf inc/Module/Install.pm
+SHA1 8ea4e37df83fd0c1c050be5c8da75545c3828d9b inc/Module/Install/Base.pm
+SHA1 1da6031583c32f0d1ec073b8376102fc51427dcc inc/Module/Install/Can.pm
+SHA1 b779375b90c16af2f31f38a1dd2b5df223c7f2fb inc/Module/Install/Fetch.pm
+SHA1 6bf0d0d100b94d1a2ce64d010c8813dec26ac480 inc/Module/Install/Include.pm
+SHA1 2054450e1e9c1dd8056362bf4a64ae70d5d71476 inc/Module/Install/Makefile.pm
+SHA1 5d6189b2cad15cf9932a28faafd55130c8247e83 inc/Module/Install/Metadata.pm
+SHA1 02af973fae2ac3531fa6b704574b2b8cb2a08148 inc/Module/Install/Win32.pm
+SHA1 3a2eab96e91cca8d99938cda7791759ae9d97b3a inc/Module/Install/WriteAll.pm
+SHA1 6ee3ac34f31857536dd77852e4dd4e21e5743607 inc/Test/Builder.pm
+SHA1 9ceb21c6c29c6857f63ddfa580cedb776e7d403d inc/Test/Builder/Module.pm
+SHA1 0fc9342c11d50218dfa2a71aee7443af26c99177 inc/Test/More.pm
+SHA1 8367557b8bc5b2335242d54f106d288d1957ae55 lib/Win32/Hardlink.pm
+SHA1 ef324165f79f2d85c2637b4a547ea19f6246e2c8 lnw.cpp
+SHA1 06a029cbe7fbe67f1b0e2aae4bbfd74abd61da87 t/1-basic.t
 SHA1 7fefab9e3cbe37a7a900a3082ac4d454999bdb5b typemap
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.3 (FreeBSD)
+Version: GnuPG v1.4.3 (Darwin)
 
-iD8DBQFBVLA1tLPdNzw1AaARAuz0AKCSeslsFWPklofAAYhpH12mPbJdZACfagyi
-ab++EBpVj/gfixZURoNbV1w=
-=ZXdz
+iD8DBQFHEQs7tLPdNzw1AaARAtxyAJ9gQ1ATGY3InoIE1DO2PG6d7SMOTQCfUhk2
+nE2ONWqI6NaVgRyOhcV1HO0=
+=rh2h
 -----END PGP SIGNATURE-----

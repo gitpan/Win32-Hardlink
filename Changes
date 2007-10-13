@@ -1,16 +1,13 @@
-----------------------------------------------------------------------
-r8171:  autrijus | 2004-09-24T23:39:18.658123Z
+[Changes for 0.03 - 2004-10-14]
 
-* This be 0.02.
+* Modernize the build infrastruture to Module::Install.
+* Also corrected t/1-basic.t to use Test::More.
+
+[Changes for 0.02 - 2004-09-24]
+
 * Correct the "Symlink" leftovers in README and MANIFEST.SKIP.
 * Fix building on Perl 5.6.1 by providing a correct typemap.
 
-----------------------------------------------------------------------
-r7680:   | 2004-09-18T21:37:56.647870Z
+[Changes for 0.01 - 2004-09-18]
 
-* This be 0.01, initial checkin of Win32-Hardlink.
-----------------------------------------------------------------------
-r7679:   | 2004-09-18T21:36:01.372112Z
-
-
-----------------------------------------------------------------------
+* Initial release of Win32-Hardlink.
