@@ -3,9 +3,10 @@ package Win32::Hardlink;
 use 5.005;
 use strict;
 use vars qw($VERSION @ISA);
-$VERSION = '0.10';
 
 BEGIN {
+    $VERSION = '0.11';
+
     local $@;
     eval {
         require XSLoader;
@@ -33,7 +34,7 @@ Win32::Hardlink - Hardlink support on Windows
 
 =head1 VERSION
 
-This document describes version 0.10 of Win32::Hardlink, released
+This document describes version 0.11 of Win32::Hardlink, released
 October 14, 2007.
 
 =head1 SYNOPSIS

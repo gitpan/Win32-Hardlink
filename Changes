@@ -1,3 +1,11 @@
+[Changes for 0.11 - 2007-10-14]
+
+* $VERSION is now assigned at BEGIN time, so DynaLoader no longer
+  complains about an undefined version.
+
+* Repaired incorrect use of "skip" in t/1-basic.t.
+  Reported by: Taro Nishino (via CPAN Testers)
+
 [Changes for 0.10 - 2007-10-14]
 
 * Corrected 0.04's distribution name: "Win32-HardLink" should have
